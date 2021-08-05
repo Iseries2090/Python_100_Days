@@ -16,10 +16,11 @@
 # greet_with_name("Kyle")
 
 #functions with more than 1 input
-def greet_with(name, location):
-    print(f"Hello, {name}.")
-    print(f"What is it like in {location}?")
-# greet_with("Kyle","St. Charles")
+# def greet_with(name, location):
+#     print(f"Hello, {name}.")
+#     print(f"What is it like in {location}?")
+# # greet_with("Kyle","St. Charles")
+#
+# #functions with keyword arguments
+# greet_with(location="Indiana",name="Kyle")
 
-#functions with keyword arguments
-greet_with(location="Indiana",name="Kyle")
