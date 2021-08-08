@@ -26,14 +26,23 @@
 
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
-def encrypt(text,shift):
-    cipher_txt = ""
-    for num in range(len(text)):
-        index = alphabet.index(text[num])
-        cipher_txt += alphabet[index + 5]
-
-
-    print(cipher_txt)
+# def encrypt(text,shift):
+#     cipher_txt = ""
+#     for num in range(len(text)):
+#         index = alphabet.index(text[num])
+#         cipher_txt += alphabet[index + 5]
+#
+#
+#     print(cipher_txt)
 #
 #
 # encrypt(text="hello",shift=5)
+
+list = ["fighter", "black mage", "white mage", "black belt", "thief"]
+import random
+def final_party():
+    party = []
+    for num in range(4):
+        party.append(random.choice(list))
+    print(party)
+final_party()
