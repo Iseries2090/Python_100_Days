@@ -1,8 +1,6 @@
 # import only system from os
 import os
 from art import logo
-# import sleep to show output for some time period
-from time import sleep
 
 
 def clear_screen():
